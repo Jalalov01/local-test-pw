@@ -1,0 +1,15 @@
+{
+  "name": "local-tests-pw",
+  "version": "1.0.0",
+  "description": "Playwright ene-to-end tests for localcoding.us",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "Jalalov",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.37.1"
+  }
+}
