@@ -4,6 +4,7 @@
   "description": "Playwright ene-to-end tests for localcoding.us",
   "scripts": {
     "test": "playwright test",
+    "tets:debug": "playwright test --headed",
     "report": "playwright show-report"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "1.37.1"
+  },
+  "dependencies": {
+    "dotenv": "16.3.1"
   }
 }
